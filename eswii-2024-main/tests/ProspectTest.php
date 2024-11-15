@@ -1,6 +1,6 @@
 <?php
 namespace test;
-require_once('../libs/vendor/autoload.php');
+require_once('../vendor/autoload.php');
 require_once('../models/Prospect.php');
 require_once('../DAO/DAOProspect.php');
 

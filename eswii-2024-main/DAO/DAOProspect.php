@@ -4,7 +4,7 @@ namespace DAO;
 
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER['DOCUMENT_ROOT'].$separador;
-require_once('../models/Prospect.php');
+require_once($root .'prospectcolector/models/Prospect.php');
 
 use MODELS\Prospect;
 
@@ -166,8 +166,7 @@ class DAOProspect{
       if (!defined('BASE_DIR')) {
          define( 'BASE_DIR', dirname( __FILE__ ) . DS );
       }
-      //require(BASE_DIR . 'configdb.php');
-      require('configdb.php');
+      require(BASE_DIR . 'configdb.php');
 
       try {
          $conn = new \MySQLi($dbhost, $user, $password, $banco);
