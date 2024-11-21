@@ -6,7 +6,7 @@ mysqli_report(MYSQLI_REPORT_STRICT);
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER['DOCUMENT_ROOT'].$separador;
 
-require($root . 'rhay_atualizado/models/Usuario.php');
+require($root . 'prospectcolector/models/Usuario.php');
 
 use models\Usuario;
 
@@ -90,7 +90,7 @@ class DAOUsuario{
      $separador = DIRECTORY_SEPARATOR;
      $root = $_SERVER['DOCUMENT_ROOT'].$separador;
 
-      require($root . 'rhay_atualizado/DAO/configdb.php');
+      require($root . 'prospectcolector/DAO/configdb.php');
 
       try {
          $conn = new \MySQLi($dbhost, $user, $password, $banco);
