@@ -3,7 +3,7 @@ namespace controllers;
 
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER['DOCUMENT_ROOT'].$separador;
-require_once($root .'prospectcolector/DAO/DAOProspect.php');
+require_once($root .'codigo_novembrovinteum/DAO/DAOProspect.php');
 
 use dao\DAOProspect;
 
