@@ -61,7 +61,7 @@ class UsuarioTest extends TestCase{
    public function buscarProspectPorEmail(){
       $ctrlProspect = new ControllerProspect();
       $prospect = new Prospect();
-      $email = 'paulo@eu.com.br';
+      $email = 'rhay@eu.com.br';
       $arrayComparar = array();
 
       $conn = new \mysqli('localhost', 'root', '', 'bd_prospects');

@@ -12,7 +12,7 @@ use dao\DAOProspect;
  * envio para a DAO executar as consultas no banco de dados.
  * Seu escopo se limita às funções da entidade prospect.
  *
- * @author Paulo Roberto Córdova
+ * @author Rhaynnara
  *
  */
 class ControllerProspect{

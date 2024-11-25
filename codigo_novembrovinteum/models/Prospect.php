@@ -4,7 +4,7 @@ namespace models  ;
 /**
  * Classe Model de Prospects
  *
- * @author Paulo Roberto Córdova
+ * @author rhaynnara
  */
 class Prospect{
    /**

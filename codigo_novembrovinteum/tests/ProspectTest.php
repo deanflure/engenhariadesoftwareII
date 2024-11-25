@@ -15,7 +15,7 @@ class ProspectTest extends TestCase{
       $daoProspect = new DAOProspect();
       $this->assertEquals(
          TRUE,
-         $daoProspect->incluirProspect('Paulo Roberto Cordova', 'paulo@eu.com.br', '(49)96633-9988', 'facepaulo', '(49)8899-6699')
+         $daoProspect->incluirProspect('Rhaynnara Fernandes Pereita', 'rhay@eu.com.br', '(49)96633-9988', 'facerhay', '(49)8899-6699')
       );
 
       unset($daoProspect);
@@ -25,7 +25,7 @@ class ProspectTest extends TestCase{
       $daoProspect = new DAOProspect();
       $this->assertEquals(
          TRUE,
-         $daoProspect->atualizarProspect('Paulo Roberto Cordova', 'paulo@gmail.com.br', '(49)96633-9988',  'facepaulo', '(49)8899-6699', 3)
+         $daoProspect->atualizarProspect('Rhaynnara Fernandes Pereita', 'rhay@eu.com.br', '(49)96633-9988', 'facerhay', '(49)8899-6699', 3)
       );
       unset($daoProspect);
    }
