@@ -13,11 +13,11 @@ class ControllerUsuarioTest extends TestCase{
       $ctrlUsuario = new ControllerUsuario();
       $usuario = new Usuario();
 
-      $usuario->addUsuario("paulo", "paulo", "paulo@eu.com", "", TRUE);
+      $usuario->addUsuario("rhay", "rhay", "rhay@eu.com", "", TRUE);
 
       $this->assertEquals(
          $usuario,
-         $ctrlUsuario->fazerLogin('paulo', '123')
+         $ctrlUsuario->fazerLogin('rhay', '123')
       );
    }
    public function testIncluirUsuario(){

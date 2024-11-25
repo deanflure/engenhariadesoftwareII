@@ -14,10 +14,10 @@ class UsuarioTest extends TestCase{
       $daoUsuario = new DAOUsuario();
       $usuario = new Usuario();
 
-      $usuario->addUsuario("paulo", "paulo", "paulo@eu.com", "", TRUE);
+      $usuario->addUsuario("rhay", "rhay", "rhay@eu.com", "", TRUE);
       $this->assertEquals(
          $usuario,
-         $daoUsuario->logar('paulo', '123')
+         $daoUsuario->logar('rhay', '123')
       );
 
 

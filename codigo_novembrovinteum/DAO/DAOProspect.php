@@ -4,7 +4,7 @@ namespace DAO;
 
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER['DOCUMENT_ROOT'] . $separador;
-require_once($root . 'prospectcolector/models/Prospect.php');
+require_once($root . 'codigo_novembrovinteum/models/Prospect.php');
 
 use MODELS\Prospect;
 

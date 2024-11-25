@@ -6,7 +6,7 @@ mysqli_report(MYSQLI_REPORT_STRICT);
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER['DOCUMENT_ROOT'] . $separador;
 
-require($root . 'prospectcolector/models/Usuario.php');
+require($root . 'codigo_novembrovinteum/models/Usuario.php');
 
 use models\Usuario;
 
